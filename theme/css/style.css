@@ -845,16 +845,11 @@ footer .overlay-image {
   width: 100%;
   border: 1px solid #d2d2e2;
   border-radius: 100%;
-  -webkit-animation-name: ripple;
-          animation-name: ripple;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
-          animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+  animation-name: ripple;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
   z-index: -1;
 }
 .ripple::before {
@@ -867,28 +862,12 @@ footer .overlay-image {
   width: 100%;
   border: 1px solid #d2d2e2;
   border-radius: 100%;
-  -webkit-animation-name: ripple;
-          animation-name: ripple;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
-          animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+  animation-name: ripple;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
   z-index: -1;
-}
-
-@-webkit-keyframes ripple {
-  from {
-    opacity: 1;
-    transform: scale3d(0.75, 0.75, 1);
-  }
-  to {
-    opacity: 0;
-    transform: scale3d(1.5, 1.5, 1);
-  }
 }
 
 @keyframes ripple {
@@ -928,7 +907,7 @@ footer .overlay-image {
 /* /card slider */
 /* google map */
 .map {
-  height: 750px;
+  height: 500px;
 }
 
 /* /google map */
@@ -942,8 +921,7 @@ footer .overlay-image {
 
 .card {
   border: 0;
-  border-radius: 10%;
-  margin-top: 100px;
+  border-radius: 0;
 }
 .card-img-top {
   border-radius: 0;
@@ -959,7 +937,3 @@ footer .overlay-image {
   border: 0;
 }
 /*# sourceMappingURL=style.css.map */
-
-.navbar-expand-lg .navbar-collapse{
-  justify-content: flex-end;
-}
