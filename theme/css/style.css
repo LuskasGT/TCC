@@ -839,4 +839,9 @@ footer .overlay-image {
 .card-footer {
   border: 0;
 }
-/*# sourceMappingURL=style.css.map */
+/*lista cachorro TESTE*/
+.card-cachorro{
+  border-radius:10px !important;
+  height: 270px;
+  width: 350px;
+}
