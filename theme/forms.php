@@ -1,5 +1,5 @@
 <?php 
-if (issets($_POST['email'] && !empty($_POST["email"]))){
+if(!empty($_POST["email"])){
 
 $email = addslashes($_POST["email"]);
 $nome = addslashes($_POST["nome"]);
@@ -14,7 +14,7 @@ $body = "email: ".$email. "\r\n".
         "telefone: ".$endereco;
 
 $header = "From: lucas.g.theodooro@gmail.com"."\r\n".
- "Reply-To:" $email."\r\n".
+ "Reply-To:" .$email."\r\n".
  "X=Mailer:PHP/".phpversion();
 
  if(mail($to,$subject,$body,$header)){
