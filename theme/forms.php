@@ -18,9 +18,7 @@ $header = "From: lucas.g.theodooro@gmail.com"."\r\n".
  "Reply-To:" .$email."\r\n".
  "X=Mailer:PHP/".phpversion();
 
- // Adicionando para o SMTP responder direito para a porta 25
-ini_set("SMTP","smtp.example.com" );
-ini_set("smtp_port","587" );
+
 
  if(mail($to,$subject,$body,$header)){
     echo("Email enviado com sucesso");
