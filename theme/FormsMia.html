@@ -9,7 +9,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Adote Agora</title>
+  <title>Instituto Meu Pet</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +21,7 @@
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <!-- slick slider -->
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <!-- themefy-icon -->
@@ -29,9 +30,10 @@
   <link rel="stylesheet" href="plugins/venobox/venobox.css">
   <!-- card slider -->
   <link rel="stylesheet" href="plugins/card-slider/css/style.css">
+  
 
-  <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
+
 
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -40,6 +42,8 @@
 </head>
 
 <body>
+
+
   <header class="navigation fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -63,110 +67,88 @@
     </nav>
   </header>
 
-
   <!-- banner -->
   <section class="banner bg-cover position-relative d-flex justify-content-center align-items-center"
-    data-background="images/backgrounds/Adote.png" style =" height: 630px;">
-
+    data-background="images/backgrounds/banner.png">
   </section>
   <!-- /banner -->
 
-
-
-  <!-- blog -->
-  <section class="section">
+  <!-- team single -->
+  <section>
     <div class="container">
-      <div class="row">
-        
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card-cachorro">
-            <article class="card">
-              <a href="FormsLola.html">
-                <img src="images/animais/cachorro1.jpg"alt="post-thumb" class="card-img-top mb-2" style="height: 256px; border-radius: 10px;">
-                <div class="card-body p-0">
-                  <a class="h4 card-title d-block text-dark hover-text-underline">
-                    Lola</a>
-                </div>
-              </a>
-            </article>
+      <div class="row mb-100">
+        <div class="col-lg-4 col-md-6">
+          <div class="bg-secondary p-4 text-center">
+            <div class="img-thumb mx-auto mb-3">
+              <img src="images/animais/cachorro1.jpg" alt="team-member" class="img-fluid" style="border-radius: 10px;">
+            </div>
+            <h2 class="text-white" >Lola</h2>
+          </div>
+        </div>
+        <div class="col-lg-7 offset-lg-1 col-md-6">
+          <div class="pt-5">
+            <h2>Working Skill</h2>
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim
+              id est laborum. Sed ut perspiciatis.</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card-cachorro">
-            <article class="card">
-              <a href="FormsRex.html">
-                <img src="images/animais/cachorro2.jpg"alt="post-thumb" class="card-img-top mb-2"style="height: 256px; border-radius: 10px;">
-                <div class="card-body p-0">
-                  <a class="h4 card-title d-block text-dark hover-text-underline">
-                    Rex</a>
-                </div>
-              </a>
-            </article>
-          </div>
-        </div>
+        <div class="row g-0 d-flex float-end justify-content-end">
+          <div class="col-lg-7 offset-lg-1 col-md-6">
+            <div class="pt-5">
 
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card-cachorro">
-            <article class="card">
-              <a href="FormsThor.html">
-                <img src="images/animais/cachorro3.jpg"alt="post-thumb" class="card-img-top mb-2" style="height: 256px; border-radius: 10px;">
-                <div class="card-body p-0">
-                  <a class="h4 card-title d-block text-dark hover-text-underline">
-                    Thor</a>
+              <form action="lolaForms.html" method="post" class="row g-1">
+               
+                <div class="col-md-12">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" name="email" class="form-control" id="email" required>
                 </div>
-              </a>
-            </article>
-          </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card-cachorro">
-            <article class="card">
-              <a href="FormsBolt.html">
-                <img src="images/animais/cachorro4.jpg"alt="post-thumb" class="card-img-top mb-2"style="height: 256px; border-radius: 10px;">
-                <div class="card-body p-0">
-                  <a class="h4 card-title d-block text-dark hover-text-underline">
-                    Bolt</a>
+                <div class="col-md-6">
+                  <label for="inputNome" class="form-label">Nome</label>
+                  <input type="text" name="nome" class="form-control" id="nome" required>
                 </div>
-              </a>
-            </article>
-          </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card-cachorro">
-            <article class="card">
-              <a href="FormsMia.html">
-                <img src="images/animais/gato1.jpg"alt="post-thumb" class="card-img-top mb-2" style="height: 256px; border-radius: 10px;">
-                <div class="card-body p-0">
-                  <a class="h4 card-title d-block text-dark hover-text-underline">
-                    Mia</a>
+                <div class="col-4">
+                  <label for="inputApartament" class="form-label">Telefone</label>
+                  <input type="number" name="telefone" class="form-control" id="telefone" required>
                 </div>
-              </a>
-            </article>
-          </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card-cachorro">
-            <article class="card">
-              <a href="FormsSafira.html">
-                <img src="images/animais/gato2.jpg"alt="post-thumb" class="card-img-top mb-2"style="height: 256px; border-radius: 10px;">
-                <div class="card-body p-0">
-                  <a class="h4 card-title d-block text-dark hover-text-underline">
-                    Safira</a>
+                <div class="col-2">
+                  <label for="inputNumero" class="form-label">Numero</label>
+                  <input type="number" name="numero" class="form-control" id="numero">
                 </div>
-              </a>
-            </article>
+
+                <div class="col-6">
+                  <label for="inputEndereço" class="form-label">Endereço</label>
+                  <input type="text" name="endereco" class="form-control" id="endereco">
+                </div>
+
+                <div class="col-6">
+                  <label for="inputApartamento" class="form-label">Apartamento</label>
+                  <input type="text" name="apartamento" class="form-control" id="apartamento">
+                </div>
+               
+
+                <div class="col-12"><a href="index.html">
+                  <input type="hidden" name="_captcha" value="false" >
+                  <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/theme/team-single.html">
+                   <button href type="submit" class="btn btn-primary">Enviar</button></a>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
-        
       </div>
     </div>
   </section>
-  <!-- /blog -->
+
 
   <!-- footer -->
   <footer class="bg-secondary position-relative">
@@ -225,6 +207,7 @@
   <script src="plugins/jQuery/jquery.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <!-- slick slider -->
   <script src="plugins/slick/slick.min.js"></script>
   <!-- venobox -->
@@ -244,7 +227,6 @@
 
   <!-- Main Script -->
   <script src="js/script.js"></script>
-
 </body>
 
 </html>
