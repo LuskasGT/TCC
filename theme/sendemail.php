@@ -16,7 +16,7 @@ $email->addContent("text/plain", "Enviado com sucesso(acredito)");
 $email->addContent(
     "text/html", "<strong>Enviado com sucesso(acredito)</strong>"
 );
-$sendgrid = new \SendGrid(getenv('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'));
+$sendgrid = new \SendGrid('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');
                                 //   SRjguPO4QpSF1RekkLA2fg
 try {
     $response = $sendgrid->send($email);

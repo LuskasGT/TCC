@@ -32,7 +32,7 @@
             },
             "time": "2022-03-09T20:21:55+00:00",
             "type": "library",
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "SendGrid\\": "lib/"
@@ -101,7 +101,7 @@
             },
             "time": "2022-03-09T20:21:56+00:00",
             "type": "library",
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "SendGrid\\Mail\\": "lib/mail/",
@@ -155,7 +155,7 @@
             },
             "time": "2021-06-06T22:24:49+00:00",
             "type": "library",
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/ellipticcurve.php"
