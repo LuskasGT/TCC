@@ -10,15 +10,18 @@ require 'lib/vendor/autoload.php'; // If you're using Composer (recommended)
 
 $email = new \SendGrid\Mail\Mail();
 $email->setFrom("lucas.g.theodooro@gmail.com", "Adoção de Animas");
-$email->setSubject("Adoção de animais - Fale Conosco");
+$email->setSubject("Adoção de animais - Adoção de Animas");
 $email->addTo("lucas.g.theodooro@gmail.com", "Lucas TCC");
 
 $email->addContent(
     "text/html",
-    "<strong>Fale Conosco</strong><br><br>" .
+    "<strong>Adoção de animais </strong>". $_POST['FormularioDoThor'] . "<br><br>" .
     "<strong>Nome:</strong> " . $_POST['nome'] . "<br>" .
     "<strong>Email:</strong> " . $_POST['email'] . "<br>" .
-    "<strong>Mensagem:</strong> " . $_POST['mensagem']
+    "<strong>Telefone:</strong> " . $_POST['telefone'] . "<br>" .
+    "<strong>Numero:</strong> " . $_POST['numero'] . "<br>" .
+    "<strong>Endereço:</strong> " . $_POST['endereco'] . "<br>" .
+    "<strong>Apartamento:</strong> " . $_POST['apartamento'] 
 );
 
 $sendgrid = new \SendGrid('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');
