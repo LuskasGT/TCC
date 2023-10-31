@@ -1,242 +1,310 @@
-@@include('header.htm')
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+<head>
+  <meta charset="utf-8">
+  <title>Instituto Meu Pet</title>
 
-@@include('blocks/navigation.htm')
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!-- banner -->
-<section class="banner bg-cover position-relative d-flex justify-content-center align-items-center"
-  data-background="images/banner/banner2.jpg">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="display-1 text-white font-weight-bold font-primary">Creative Agency</h1>
+  <!-- theme meta -->
+  <meta name="theme-name" content="agen" />
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- venobox css -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+  <!-- card slider -->
+  <link rel="stylesheet" href="plugins/card-slider/css/style.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+
+  <header class="navigation fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fale-conosco.html">Fale conosco</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adocao.html">Adote hoje</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="PorqueAdotar.html">Porque Adotar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- banner -->
+  <section id="background-banner" class="banner img-fluid bg-cover position-relative d-flex justify-content-center align-items-center"
+    data-background="images/backgrounds/banner.png" style =" height: 630px;">
+    <!--
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" style="text-align: end;" ><h1>Adote hoje!</h1></div>
+        <div class="col-sm-12" style="text-align: end;" ><h4>e faça a alegria</h4></div>
+        <div class="col-sm-12" style="text-align: end;" ><h4>de um</h4></div>
+        <div class="col-sm-12" style="text-align: end;" ><h4>animalzinho</h4></div>
+      </div>
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 " style="text-align: center;">  <img src="images/logo (2).png" style="height: 100px;"></div>
       </div>
     </div>
-  </div>
-</section>
-<!-- /banner -->
+    -->
+  </section>
+  <!-- /banner -->
 
-<!-- service -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h2 class="section-title">Our Services</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.</p>
-        <div class="section-border"></div>
+
+
+  <!-- serviços -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <h2 class="section-title">Nossos serviços que oferecemos</h2>
+          <p class="lead">Nosso site de adoção de animais de estimação oferece uma variedade de serviços para ajudar os
+            animais necessitados.
+            Conectamos animais abandonados e resgatados com lares amorosos através do processo de adoção. Nossa
+            plataforma permite que os usuários naveguem
+            pelos diferentes animais disponíveis para adoção, fornecendo informações detalhadas sobre idade, raça e
+            temperamento. Facilitamos o processo de adoção,
+            fornecendo informações completas sobre os animais e permitindo que os interessados ​​façam solicitações e
+            organizem visitas para conhecer seus futuros companheiros.
+            Além disso, oferecemos diversos serviços para doação de alimentos ou dinheiro, além de locais para tirar
+            dúvidas.
+
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 mb-4 mb-lg-0">
-        <div class="card hover-bg-secondary shadow py-4 active">
-          <div class="card-body text-center">
-            <div class="position-relative">
-              <i
-                class="icon-lg icon-box bg-gradient-primary rounded-circle ti-palette mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-palette"></i>
+      <!-- serviços -->
+
+
+
+      <!-- cards -->
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <a href="adocao.html">
+            <div class="card hover-bg-secondary shadow py-4">
+              <div class="card-body text-center">
+                <div class="position-relative">
+                  <img src="./images/cards/encontre seu amiguinho.png"
+                    style="height: 130px; width: 130px; border-radius: 100%;"></src>
+                </div>
+                <h4 class="mb-4">Encontre seu amiguinho</h4>
+                <p>Encontre o seu melhor amigo, veja os animais que estão conosco na espera de você e da sua familia.
+                </p>
+              </div>
             </div>
-            <h4 class="mb-4">Design</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
-          </div>
+          </a>
         </div>
-      </div>
-      <div class="col-lg-4 mb-4 mb-lg-0">
-        <div class="card hover-bg-secondary shadow py-4">
-          <div class="card-body text-center">
-            <div class="position-relative">
-              <i
-                class="icon-lg icon-box bg-gradient-primary rounded-circle ti-dashboard mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-dashboard"></i>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <a href="PorqueAdotar.html">
+            <div class="card hover-bg-secondary shadow py-4">
+              <div class="card-body text-center">
+                <div class="position-relative">
+                  <img src="./images/cards/por que adotar.jpeg"
+                    style="height: 130px; width: 130px; border-radius: 100%;"></src>
+                </div>
+                <h4 class="mb-4">Por que adotar um animal?</h4>
+                <p>Adotar um animal traz amor incondicional, companheirismo e alegria à sua vida, ao mesmo tempo em que
+                  oferece uma segunda chance a um ser vivo que precisa de um lar.</p>
+              </div>
             </div>
-            <h4 class="mb-4">Development</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
-          </div>
+          </a>
         </div>
-      </div>
-      <div class="col-lg-4 mb-4 mb-lg-0">
-        <div class="card hover-bg-secondary shadow py-4">
-          <div class="card-body text-center">
-            <div class="position-relative">
-              <i
-                class="icon-lg icon-box bg-gradient-primary rounded-circle ti-announcement mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-announcement"></i>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <a href="fale-conosco.html">
+            <div class="card hover-bg-secondary shadow py-4">
+              <div class="card-body text-center">
+                <div class="position-relative">
+                  <img src="./images/cards/ajude-nos.png" style="height: 130px; width: 130px; border-radius: 100%;">
+                  </src>
+                </div>
+                <h4 class="mb-4">Ajude-nos</h4>
+                <p>Ajude-nos a fazer a diferença! Nosso site oferece adoção de animais, doação de alimentos e dinheiro,
+                  além de um canal de contato direto.
+                  Adote um animal em busca de um lar amoroso, faça doações de alimentos para garantir sua nutrição
+                  adequada e contribua financeiramente para cuidados
+                  veterinários e bem-estar. Juntos, podemos mudar vidas! Entre em contato conosco para saber como ajudar.</p>
+              </div>
             </div>
-            <h4 class="mb-4">Marketing</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- cards -->
+
+  <!-- team -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <h2>Nosso time</h2>
+          <p>Esse site foi criado a partir de um projeto de tcc pelos alunos da Etec João Maria Stevanatto</p>
+          <div class="section-border"></div>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-3 col-sm-6">
+          <div class="card hover-shadow">
+            <img src="images/team/LucasGT.jpg" alt="team-member" class="card-img-top" height="295px" width="220">
+            <div class="card-body text-center position-relative zindex-1">
+              <h4><a class="text-dark" href="https://www.instagram.com/lukasgt01/">Lucas GT</a></h4>
+              <i>Programador e Designer</i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="card hover-shadow">
+            <img src="images/team/Julia O.png" alt="team-member" class="card-img-top" height="295px" width="220">
+            <div class="card-body text-center position-relative zindex-1">
+              <h4><a class="text-dark" href="team-single.html">Julia O</a></h4>
+              <i>Documentação</i>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="card hover-shadow">
+              <img src="images/team/Tiago.jpg" alt="team-member"
+                class="card-img-top" height="295px" width="220">
+              <div class="card-body text-center position-relative zindex-1">
+                <h4><a class="text-dark" href="team-single.html">Tiago</a></h4>
+                <i>Documentação</i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="card hover-shadow">
+              <img src="https://cdn.pixabay.com/photo/2017/02/25/22/04/user-icon-2098873_1280.png" alt="team-member"
+                class="card-img-top" height="295px">
+              <div class="card-body text-center">
+                <h4>Julia Z</h4>
+                <i>Documentação</i>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- /service -->
+  </section>
+  <!-- /team -->
 
-@@include('blocks/feature.htm')
-
-@@include('blocks/team.htm')
-
-<!-- about -->
-<section class="section-lg position-relative bg-cover" data-background="images/backgrounds/about-bg.jpg">
-  <img src="images/backgrounds/about-bg-overlay.png" alt="overlay" class="overlay-image img-fluid">
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-lg-6 col-md-8 col-sm-7 col-8">
-        <h2 class="text-white mb-4">Who We Are</h2>
-        <p class="text-light mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.</p>
-        <a href="about.html" class="btn btn-primary">Read More</a>
-      </div>
-      <div class="col-md-2 col-sm-4 col-4 text-right align-self-end">
-        <a class="venobox" data-autoplay="true" data-vbtype="video"
-          href="https://www.youtube.com/watch?v=jrkvirglgaQ"><i
-            class="text-center icon-sm icon-box rounded-circle text-white bg-gradient-primary d-block ti-control-play"></i></a>
+  <!-- about -->
+  <section class="section-lg position-relative bg-cover" data-background="images/backgrounds/about-bg.jpg">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-6 col-md-8 col-sm-7 col-8">
+          <h2 class="text-white mb-4">Quem nós somos?</h2>
+          <p class="text-light mb-4">Somos uma empresa que prioriza a vida e bem dos animais abandonados pelos seus
+            donos, cuidamos deles com a melhor qualidade que conseguimos, até que ele seja adotado por uma família ou
+            por você.</p>
+          <a href="about.html" class="btn btn-primary">Leia mais</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- /about -->
+  </section>
+  <!-- /about -->
 
-<!-- project -->
-<section class="section">
-  <div class="container-fluid px-0">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h2>Our Feature Works</h2>
-        <div class="section-border"></div>
-      </div>
-    </div>
+  <!-- footer -->
+  <footer class="bg-secondary position-relative">
 
-    <div class="row no-gutters shuffle-wrapper">
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-1.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-2.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-3.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-4.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-5.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
+    <div class="section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12 lg-12 col-12">
+            <h4 class="text-white mb-10 lg-10 ">Esse site foi feito a partir de um projeto de trabalho de conclusão de curso da escola Etec João Maria Stevantto do ano de 2023</h4>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- /project -->
-
-<!-- call to action -->
-<section>
-  @@include('blocks/cta.htm')
-</section>
-<!-- /call to action -->
-
-<!-- pricing -->
-<section class="section pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h2>Our Smart Pricing Table</h2>
-        <div class="section-border"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <div class="card bottom-shape bg-secondary pt-4 pb-5">
-          <div class="card-body text-center">
-            <h4 class="text-white">Basic</h4>
-            <p class="text-light mb-4">Besic and simple website</p>
-            <p class="text-white mb-4">$ <span class="display-3 font-weight-bold vertical-align-middle">30</span></p>
-            <ul class="list-unstyled mb-5">
-              <li class="text-white mb-3">Mobile-Optimized Website</li>
-              <li class="text-white mb-3">Powerful Website Metrics</li>
-              <li class="text-white mb-3">Free Custom Domain</li>
-              <li class="text-white mb-3">24/7 Customer Support</li>
-              <li class="text-white mb-3">Fully Integrated E-Cormmerce</li>
-              <li class="text-white mb-3">Sell unlimited Product</li>
+    <div class="pb-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-left">
+            <p class="text-light mb-0">Copyright &copy; 2023<a class="text-gradient-primary"
+                href="https://www.etecitapira.com.br/">Etec</a>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-inline text-md-right text-center">
+              <li class="list-inline-item"><a class="d-block p-3 text-white"
+                  href="https://www.instagram.com/institutomeupet/?igshid=MzRlODBiNWFlZA%3D%3D"><i
+                    class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a class="d-block p-3 text-white" href="https://github.com/LuskasGT/TCC"><i
+                    class="ti-github"></i></a></li>
             </ul>
-            <a href="#" class="btn btn-outline-light">Try it now</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <div class="card bottom-shape bg-secondary pt-4 pb-5">
-          <div class="card-body text-center">
-            <h4 class="text-white">Basic</h4>
-            <p class="text-light mb-4">Besic and simple website</p>
-            <p class="text-white mb-4">$ <span class="display-3 font-weight-bold vertical-align-middle">30</span></p>
-            <ul class="list-unstyled mb-5">
-              <li class="text-white mb-3">Mobile-Optimized Website</li>
-              <li class="text-white mb-3">Powerful Website Metrics</li>
-              <li class="text-white mb-3">Free Custom Domain</li>
-              <li class="text-white mb-3">24/7 Customer Support</li>
-              <li class="text-white mb-3">Fully Integrated E-Cormmerce</li>
-              <li class="text-white mb-3">Sell unlimited Product</li>
-            </ul>
-            <a href="#" class="btn btn-outline-light">Try it now</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <div class="card bottom-shape bg-secondary pt-4 pb-5">
-          <div class="card-body text-center">
-            <h4 class="text-white">Basic</h4>
-            <p class="text-light mb-4">Besic and simple website</p>
-            <p class="text-white mb-4">$ <span class="display-3 font-weight-bold vertical-align-middle">30</span></p>
-            <ul class="list-unstyled mb-5">
-              <li class="text-white mb-3">Mobile-Optimized Website</li>
-              <li class="text-white mb-3">Powerful Website Metrics</li>
-              <li class="text-white mb-3">Free Custom Domain</li>
-              <li class="text-white mb-3">24/7 Customer Support</li>
-              <li class="text-white mb-3">Fully Integrated E-Cormmerce</li>
-              <li class="text-white mb-3">Sell unlimited Product</li>
-            </ul>
-            <a href="#" class="btn btn-outline-light">Try it now</a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- /pricing -->
+  </footer>
+  <!-- /footer -->
 
-@@include('blocks/blog.htm')
+  <!-- jQuery -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <!-- venobox -->
+  <script src="plugins/venobox/venobox.min.js"></script>
+  <!-- shuffle -->
+  <script src="plugins/shuffle/shuffle.min.js"></script>
+  <!-- apear js -->
+  <script src="plugins/counto/apear.js"></script>
+  <!-- counter -->
+  <script src="plugins/counto/counTo.js"></script>
+  <!-- card slider -->
+  <script src="plugins/card-slider/js/card-slider-min.js"></script>
+  <!-- google map -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+  <script src="plugins/google-map/gmap.js"></script>
 
-@@include('blocks/footer.htm')
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
 
-@@include('footer.htm')
+</body>
+
+</html>
