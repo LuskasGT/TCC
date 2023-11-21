@@ -24,7 +24,7 @@ $email->addContent(
     "<strong>Apartamento:</strong> " . $_POST['apartamento'] 
 );
 
-$sendgrid = new \SendGrid('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');
+$sendgrid = new \SendGrid('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');
                                 
 try {
     $response = $sendgrid->send($email);
