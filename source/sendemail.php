@@ -153,4 +153,4 @@
   <!-- venobox -->
   <script src="plugins/venobox/venobox.min.js"></script>
   <!-- shuffle -->
-  <script src="plugins/shuffle/shuffle.min.js"></
+  <script src="plugins/shuffle/shuffle.min.js"></script>

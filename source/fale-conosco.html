@@ -82,15 +82,15 @@ data-background="images/backgrounds/contato.png" style =" height: 630px;">
   <div class="bg-white p-4">
     <h3>Contato</h3>
 
-    <form action="sendemail.php" method="post"> 
-      <input type="hidden" name="accessKey" value="766b8029-2640-4ec5-b208-b0c51c2ba0cd">
+    <form> 
+      <!--<input type="hidden" name="accessKey" value="766b8029-2640-4ec5-b208-b0c51c2ba0cd"> -->
 
       <input type="text" id="nome" name="nome" class="form-control mb-4 px-0" placeholder="Nome Completo" maxlength="50">
       <input type="email" id="email" name="email" class="form-control mb-4 px-0" placeholder="Email" maxlength="50">
       <textarea name="mensagem" id="mensagem" class="form-control mb-4 px-0" placeholder="Mensagem" maxlength="500"></textarea>
 
       <input type="hidden" name="_captcha" value="false" >
-      <button class="btn btn-primary" type="submit">Enviar</button>
+      <button href="index.html" class="btn btn-primary" type="submit">Enviar</button>
     </form>
 
 
